@@ -7,7 +7,7 @@
         "zf2",
         "pdf"
     ],
-    "homepage": "http://packages.zendframework.com/",
+    "homepage": "https://packages.zendframework.com/",
     "autoload": {
         "psr-0": {
             "ZendPdf\\": "library/"
@@ -16,17 +16,18 @@
     "repositories": [
         {
             "type": "composer",
-            "url": "http://packages.zendframework.com/"
+            "url": "https://packages.zendframework.com/"
         }
     ],
     "require": {
-        "php": ">=5.3.3",
-        "zendframework/zend-memory": ">=2.0.0",
-        "zendframework/zend-stdlib": ">=2.0.0"
+        "php": ">=7.3",
+        "laminas/laminas-memory": ">=2",
+        "laminas/laminas-stdlib": ">=2",
+        "laminas/laminas-dependency-plugin": "^2.1"
     },
     "extra": {
         "branch-alias": {
-            "dev-master": "2.0.x-dev"
+            "dev-master": "3.0.x-dev"
         }
     }
 }

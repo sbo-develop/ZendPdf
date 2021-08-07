@@ -10,7 +10,7 @@
 
 namespace ZendPdf\BinaryParser\Font;
 
-use Zend\Log;
+use Laminas\Log;
 use ZendPdf\BinaryParser;
 
 /**
