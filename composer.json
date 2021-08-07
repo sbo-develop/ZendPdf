@@ -4,7 +4,7 @@
     "type": "library",
     "license": "BSD-3-Clause",
     "keywords": [
-        "zf2",
+        "laminas",
         "pdf"
     ],
     "homepage": "https://packages.zendframework.com/",
@@ -21,13 +21,8 @@
     ],
     "require": {
         "php": ">=7.3",
-        "laminas/laminas-memory": ">=2",
-        "laminas/laminas-stdlib": ">=2",
+        "laminas/laminas-memory": "2.*",
+        "laminas/laminas-stdlib": "3.*",
         "laminas/laminas-dependency-plugin": "^2.1"
-    },
-    "extra": {
-        "branch-alias": {
-            "dev-master": "3.0.x-dev"
-        }
     }
 }
